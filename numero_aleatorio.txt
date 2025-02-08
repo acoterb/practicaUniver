@@ -1,0 +1,14 @@
+numero_aleatorio
+numero usuario
+adivino = false
+
+	mientras adivino == false
+	
+	pedirNumero(numero_usuario)
+	si numero_aleatorio > numero_usuario
+		imprimir(Mi numero es mayor)
+	si no  numero_aleatorio < numero_usuario
+		imprimir(Mi numero es menor)
+	entonces
+		imprimir(ese es mi numero)
+		adivino = true
